@@ -1,0 +1,121 @@
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 1.2vw;
+}
+.new_nav{background-color: #000;text-align: center;clear: both;
+    display: block;}
+.new_nav ul{list-style: none;text-align: center;}
+.new_nav ul li{display: inline-block;position: relative;}
+.new_nav ul li a{text-decoration: none;display: block;padding:0 15px;
+color:#ba2e1f ;font-size: 18px;}
+
+.new_nav ul li:hover ul{
+    left:0;
+}
+.new_nav ul ul{
+    margin: 0;padding: 0;text-align: left;
+    position: absolute; list-style: none;left:-999999px;top:25px;
+    background-color:black ;z-index: 1;width: 100px;
+}
+.new_nav ul ul li a{
+    padding:10px 15px;
+}
+
+.new_nav ul li{display: inline-block;}
+.new_nav ul li{display: inline-block;}
+.header_nav_up a{color: antiquewhite;}
+.header_nav_up a:hover{color: black;}
+.search_submit{
+    background: url(.images/search.gif);
+}
+.header_up{
+    background-color: #ba2e1f;
+    padding:10px 20;
+
+}
+.logo_img{
+    background-color: #fff;
+}
+.header_nav{
+    background-color: #72b37e;
+    min-height:30px;
+}
+.slider_bg{
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+.test_overflow{
+    overflow: hidden;
+}
+.gallary{
+    background-color: #fff;
+    padding:15px 0;
+    overflow: hidden;
+}
+.mixed_area{
+    background-color:#f2f2f2;
+    padding:15px 0;
+}
+.mixed_body{
+    background-color:#72b37e;
+    padding:5px;
+    border-radius: 5px;
+}
+.mixed_area a{
+    color:#ba2e1f;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.mixed_body{
+
+}
+.FOOTER{
+    background-color: #f2f2f2;
+}
+.footer_up{
+    background-color: #fff;
+}
+.footer_single{
+    background-color:#72b37e;
+    padding:5px;
+    border-radius: 5px;
+}
+.mixed_headeer h1,.mixed_headeer_footer h1{
+   font-size: 1.8vw;
+   text-transform: uppercase;
+}
+.servise_text h2,.clients_single h2{
+    font-size: 1.9vw;
+    font-weight: bold;
+}.mixed_area p{
+    font-size: 1.2vw;
+}
+.footer_up a{
+    color:#ba2e1f;
+    text-decoration: none;
+}
+.footer_list ul{ 
+list-style: none;
+}
+.footer_list ul li{
+    text-align: center;
+}
+
+.footer_list ul li a{
+   text-decoration: none;
+   color:#ba2e1f;
+   display: block;
+   padding: 5px 0;
+
+}
+.footer_list ul li a:hover{
+    text-decoration: underline;
+    background-color: #ba2e1f;
+    color: #000;
+}
+.new_books h2{
+    font-size: 1.5vw;
+}
